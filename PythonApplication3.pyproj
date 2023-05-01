@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{865c3b6f-5590-4e29-b8a1-a78b3116afa7}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile />
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="PythonApplication3\adb_operate.py" />
+    <Compile Include="PythonApplication3\gop3_autimate_21.py" />
+    <Compile Include="PythonApplication3\gop3_restart.py" />
+    <Compile Include="PythonApplication3\main.py" />
+    <Compile Include="PythonApplication3\open_close_simulator.py" />
+    <Compile Include="PythonApplication3\strantegy_21_dict.py" />
+    <Compile Include="PythonApplication3\tickets_autimate_click.py" />
+    <Compile Include="PythonApplication3\window_standardize.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PythonApplication3\images\bet_size_100k.PNG" />
+    <Content Include="PythonApplication3\images\bet_size_100m.PNG" />
+    <Content Include="PythonApplication3\images\bet_size_10k.PNG" />
+    <Content Include="PythonApplication3\images\bet_size_1m.PNG" />
+    <Content Include="PythonApplication3\images\bet_size_200k.PNG" />
+    <Content Include="PythonApplication3\images\bet_size_200k2.PNG" />
+    <Content Include="PythonApplication3\images\bet_size_25k.PNG" />
+    <Content Include="PythonApplication3\images\bet_size_2m.PNG" />
+    <Content Include="PythonApplication3\images\bet_size_50k.PNG" />
+    <Content Include="PythonApplication3\images\bet_size_5m.PNG" />
+    <Content Include="PythonApplication3\images\bet_size_5m3.PNG" />
+    <Content Include="PythonApplication3\images\Close_button.PNG" />
+    <Content Include="PythonApplication3\images\Close_button_2.PNG" />
+    <Content Include="PythonApplication3\images\cropimga.png" />
+    <Content Include="PythonApplication3\images\dealer.PNG" />
+    <Content Include="PythonApplication3\images\dealer2.PNG" />
+    <Content Include="PythonApplication3\images\dealer3.PNG" />
+    <Content Include="PythonApplication3\images\double_bet_button.PNG" />
+    <Content Include="PythonApplication3\images\Exit.PNG" />
+    <Content Include="PythonApplication3\images\game_start_button.PNG" />
+    <Content Include="PythonApplication3\images\hit_button.PNG" />
+    <Content Include="PythonApplication3\images\level_100m.PNG" />
+    <Content Include="PythonApplication3\images\level_10m.PNG" />
+    <Content Include="PythonApplication3\images\level_250k.PNG" />
+    <Content Include="PythonApplication3\images\level_25b.PNG" />
+    <Content Include="PythonApplication3\images\private_room.PNG" />
+    <Content Include="PythonApplication3\images\room_21.PNG" />
+    <Content Include="PythonApplication3\images\room_21_fenzy.PNG" />
+    <Content Include="PythonApplication3\images\split_cards_button.PNG" />
+    <Content Include="PythonApplication3\images\stop_button.PNG" />
+    <Content Include="PythonApplication3\images\Sure.PNG" />
+    <Content Include="PythonApplication3\images\team_sure_button.PNG" />
+    <Content Include="PythonApplication3\images\temp.png" />
+    <Content Include="PythonApplication3\images\temp127.0.0.121503.png" />
+    <Content Include="PythonApplication3\images\temp127.0.0.121513.png" />
+    <Content Include="PythonApplication3\images\temp127.0.0.121523.png" />
+    <Content Include="PythonApplication3\images\temp127.0.0.121533.png" />
+    <Content Include="PythonApplication3\images\temp127.0.0.121603.png" />
+    <Content Include="PythonApplication3\images\temp127.0.0.121653.png" />
+    <Content Include="PythonApplication3\images\temp127.0.0.121673.png" />
+    <Content Include="PythonApplication3\images\temp127.0.0.121753.png" />
+    <Content Include="PythonApplication3\images\Yes.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="PythonApplication3" />
+    <Folder Include="PythonApplication3\images" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
